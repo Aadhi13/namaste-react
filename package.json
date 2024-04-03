@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/Aadhi13/namaste-react#readme",
   "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
     "parcel": "^2.11.0",
     "process": "^0.11.10"
   },

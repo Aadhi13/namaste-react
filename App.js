@@ -3,7 +3,10 @@ import { createRoot } from "react-dom/client";
 
 const heading = React.createElement("h1", { id: "heading" }, "Namste React");
 
-console.log(heading, 'react element');
+const jsxHeading = <h1 id="jsxHeading" >Namste React</h1>;
+
+console.log(heading, "react element using core React.js");
+console.log(jsxHeading, "react element using JSX");
 
 const root = createRoot(document.getElementById("root"));
 
